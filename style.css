@@ -1,8 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 
+
+
+
 body{
     
     font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    display: grid;
+    background-color: rgb(133, 113, 53);
+    /* background-image: url("image/yoda_image.jpg") */
+
  
+}
+
+.container{
+    background-color: 
+    #78350F;
+    color: antiquewhite;
+    margin-bottom: 1rem;
+}
+
+#input-text{
+    margin-left: 250px;
+    width: 800px;
+    border: 0.5rem solid antiquewhite;
+    margin-bottom: 2rem;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+}
+
+#output-text{
+    margin-left: 250px;
+    width: 800px;
+    border: 0.5rem solid antiquewhite;
+    margin-top: 2rem;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+}
+
+.btn-translate{
+    padding: 1rem;
+    font-size: 15px;
+    font-weight: bold;
+    width: 175px;
+    margin-left: 250px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: #78350F;
+    color: antiquewhite;
+    font-family: 'Architects Daughter', cursive;    
 }
