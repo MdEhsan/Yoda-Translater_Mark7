@@ -19,14 +19,14 @@ function errorHandler(error){
 
 function clickHandler(){
 
-    var inputText = inputText.value;
+    var Textinput = inputText.value;
 
-    fetch(getTranslateURL(inputText))
+    fetch(getTranslateURL(Textinput))
         .then(response => response.json())
         .then(json => {
 
             var translatedText = json.contents.translated;
-            outPut.innerText = translatedText;
+            outputText.innerText = translatedText;
 
         }).catch(errorHandler)
 
